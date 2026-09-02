@@ -31,6 +31,21 @@
       "url": "projects/pavani-sao-sebastiao-ii-70054-20260902-v1/"
     },
     {
+      "id": "pavani-s-sebastiao-ii-70054-20260902-v1",
+      "slug": "pavani-s-sebastiao-ii-70054-20260902-v1",
+      "name": "S. SEBASTIÃO II",
+      "company": "PAVANI",
+      "farm": "S. SEBASTIÃO II",
+      "field": "70054",
+      "plot": "70054",
+      "crop": "CANA-DE-AÇUCAR",
+      "season": "25/26",
+      "survey_type": "Falhas de plantio",
+      "survey_date": "2026-09-02",
+      "area_ha": 46.3629,
+      "url": "projects/pavani-s-sebastiao-ii-70054-20260902-v1/"
+    },
+    {
       "id": "pavani-s-seastiao-ii-70054-20260902-v2",
       "slug": "pavani-s-seastiao-ii-70054-20260902-v2",
       "name": "S. SEASTIÃO II",
