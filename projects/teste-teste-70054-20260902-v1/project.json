@@ -1,0 +1,145 @@
+{
+  "company": "TESTE",
+  "farm": "TESTE",
+  "field_code": "70054",
+  "crop": "",
+  "season": "",
+  "survey_date": "2026-09-02",
+  "survey_type": "Falhas de plantio",
+  "technician": "",
+  "notes": "",
+  "raster_profile": "balanced",
+  "external_mask": true,
+  "basemap": "none",
+  "max_publication_mb": 500,
+  "publication_mode": "github_pages",
+  "publication_id": "teste-teste-70054-20260902-v1",
+  "layers": [
+    {
+      "role": "orthomosaic",
+      "layer_id": "70054_1_CORTE_61679463_2490_4ea5_9897_c471ae5ed8b7",
+      "name": "70054_1_CORTE",
+      "enabled": true,
+      "visible": true,
+      "queryable": false,
+      "output": "orthomosaic.pmtiles",
+      "format": "raster_pmtiles",
+      "geometry_type": "Raster",
+      "popup_fields": [],
+      "style": {},
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": [
+        "orthomosaic.pmtiles"
+      ]
+    },
+    {
+      "role": "boundary",
+      "layer_id": "LIMITE_70054_873f2977_b8f5_4644_bbcf_cd4505f84ab2",
+      "name": "LIMITE_70054",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "boundary.geojson",
+      "format": "geojson",
+      "geometry_type": "Polygon",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#000000",
+        "line-width": 3,
+        "fill-opacity": 0,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "failures",
+      "layer_id": "70054_falhas_71a7c0a8_0b5f_448e_a207_29372ea0dd87",
+      "name": "70054_falhas",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "failures.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#6dd5ed",
+        "line-width": 2,
+        "fill-color": "#6dd5ed",
+        "fill-opacity": 0.25
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "lines",
+      "layer_id": "70054_linhas_64836ae2_9be9_4299_a17b_5d3682e52c09",
+      "name": "70054_linhas",
+      "enabled": true,
+      "visible": false,
+      "queryable": true,
+      "output": "lines.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#ffff00",
+        "line-width": 2,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    }
+  ],
+  "statistics": {
+    "area_ha": 46.3629,
+    "failure_count": 8553,
+    "failure_length_m": 11382.61,
+    "failure_mean_m": 1.33,
+    "failure_max_m": 98.94,
+    "failure_classes": {
+      "0,50–1,50 m": 6686,
+      "1,50–3,00 m": 1317,
+      "3,00–5,00 m": 360,
+      ">= 5,00 m": 190,
+      "< 0,50 m": 0
+    },
+    "failure_m_per_ha": 245.51,
+    "total_row_length_m": 303418.52,
+    "failure_percentage": 3.75
+  },
+  "bounds": [
+    -49.593800675747005,
+    -20.390484112352187,
+    -49.58677596888212,
+    -20.378379889528254
+  ],
+  "created_at": "2026-09-02T11:58:35.651210+00:00",
+  "plugin_version": "0.4.1",
+  "field": "",
+  "publication_slug": "teste-teste-70054-20260902",
+  "area_ha": 46.3629,
+  "layer_files": {
+    "orthomosaic": "orthomosaic.pmtiles",
+    "boundary": "boundary.geojson",
+    "failures": "failures.geojson",
+    "lines": "lines.geojson"
+  },
+  "orthomosaic": {
+    "enabled": true,
+    "type": "pmtiles",
+    "mode": "single",
+    "files": [
+      "orthomosaic.pmtiles"
+    ]
+  }
+}

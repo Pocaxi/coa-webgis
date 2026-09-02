@@ -1,0 +1,21 @@
+{
+  "projects": [
+    {
+      "id": "teste-teste-70054-20260902-v1",
+      "slug": "teste-teste-70054-20260902-v1",
+      "name": "TESTE",
+      "company": "TESTE",
+      "farm": "TESTE",
+      "field": "70054",
+      "plot": "70054",
+      "crop": "",
+      "season": "",
+      "survey_type": "Falhas de plantio",
+      "survey_date": "2026-09-02",
+      "area_ha": 46.3629,
+      "url": "projects/teste-teste-70054-20260902-v1/"
+    }
+  ],
+  "title": "COA WebGIS",
+  "publication_mode": "github_pages"
+}
