@@ -29,6 +29,21 @@
       "survey_date": "2026-09-02",
       "area_ha": 46.3629,
       "url": "projects/pavani-sao-sebastiao-ii-70054-20260902-v1/"
+    },
+    {
+      "id": "pavani-s-seastiao-ii-70054-20260902-v1",
+      "slug": "pavani-s-seastiao-ii-70054-20260902-v1",
+      "name": "S. SEASTIÃO II",
+      "company": "PAVANI",
+      "farm": "S. SEASTIÃO II",
+      "field": "70054",
+      "plot": "70054",
+      "crop": "CANA",
+      "season": "25/26",
+      "survey_type": "Falhas de plantio",
+      "survey_date": "2026-09-02",
+      "area_ha": 46.3629,
+      "url": "projects/pavani-s-seastiao-ii-70054-20260902-v1/"
     }
   ],
   "title": "COA WebGIS",
