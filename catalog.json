@@ -16,6 +16,21 @@
       "url": "projects/teste-teste-70054-20260902-v1/"
     },
     {
+      "id": "pavani-sao-sebastiao-ii-70054-20260902-v2",
+      "slug": "pavani-sao-sebastiao-ii-70054-20260902-v2",
+      "name": "SÃO SEBASTIÃO II",
+      "company": "PAVANI",
+      "farm": "SÃO SEBASTIÃO II",
+      "field": "70054",
+      "plot": "70054",
+      "crop": "CANA",
+      "season": "25/26",
+      "survey_type": "Falhas de plantio",
+      "survey_date": "2026-09-02",
+      "area_ha": 46.3629,
+      "url": "projects/pavani-sao-sebastiao-ii-70054-20260902-v2/"
+    },
+    {
       "id": "pavani-sao-sebastiao-ii-70054-20260902-v1",
       "slug": "pavani-sao-sebastiao-ii-70054-20260902-v1",
       "name": "SÃO SEBASTIÃO II",
