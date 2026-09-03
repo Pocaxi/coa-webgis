@@ -1,6 +1,21 @@
 {
   "projects": [
     {
+      "id": "pavani-modelo-70057-20260903-v1",
+      "slug": "pavani-modelo-70057-20260903-v1",
+      "name": "MODELO",
+      "company": "PAVANI",
+      "farm": "MODELO",
+      "field": "70057",
+      "plot": "70057",
+      "crop": "CANA-DE-AÇUCAR",
+      "season": "25/26",
+      "survey_type": "Falhas de plantio",
+      "survey_date": "2026-09-03",
+      "area_ha": 48.4257,
+      "url": "projects/pavani-modelo-70057-20260903-v1/"
+    },
+    {
       "id": "pavani-sao-sebastiao-ii-70054-20260902-v2",
       "slug": "pavani-sao-sebastiao-ii-70054-20260902-v2",
       "name": "SÃO SEBASTIÃO II",

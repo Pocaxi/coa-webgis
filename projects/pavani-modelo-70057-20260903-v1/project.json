@@ -1,0 +1,145 @@
+{
+  "company": "PAVANI",
+  "farm": "MODELO",
+  "field_code": "70057",
+  "crop": "CANA-DE-AÇUCAR",
+  "season": "25/26",
+  "survey_date": "2026-09-03",
+  "survey_type": "Falhas de plantio",
+  "technician": "",
+  "notes": "",
+  "raster_profile": "balanced",
+  "external_mask": true,
+  "basemap": "none",
+  "max_publication_mb": 500,
+  "publication_mode": "github_pages",
+  "publication_id": "pavani-modelo-70057-20260903-v1",
+  "layers": [
+    {
+      "role": "orthomosaic",
+      "layer_id": "70057_aa61e4f4_732d_40f3_a8d1_6a58598f5921",
+      "name": "70057",
+      "enabled": true,
+      "visible": true,
+      "queryable": false,
+      "output": "orthomosaic.pmtiles",
+      "format": "raster_pmtiles",
+      "geometry_type": "Raster",
+      "popup_fields": [],
+      "style": {},
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": [
+        "orthomosaic.pmtiles"
+      ]
+    },
+    {
+      "role": "boundary",
+      "layer_id": "pasted_features_4656cbdd_a95f_44b0_a3c5_ffc1923da5cb",
+      "name": "70057",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "boundary.geojson",
+      "format": "geojson",
+      "geometry_type": "Polygon",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#000000",
+        "line-width": 3,
+        "fill-opacity": 0,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "failures",
+      "layer_id": "70057_falhas_e307387e_565f_4dc0_a1d2_723ce4a0ac5e",
+      "name": "70057_falhas",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "failures.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#6dd5ed",
+        "line-width": 2,
+        "fill-color": "#6dd5ed",
+        "fill-opacity": 0.25
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "lines",
+      "layer_id": "70057_linhas_0aa49004_b8f0_4c33_9d2b_6306bd874e61",
+      "name": "70057_linhas",
+      "enabled": true,
+      "visible": false,
+      "queryable": true,
+      "output": "lines.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#ffff00",
+        "line-width": 2,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    }
+  ],
+  "statistics": {
+    "area_ha": 48.4257,
+    "failure_count": 8544,
+    "failure_length_m": 8689.76,
+    "failure_mean_m": 1.02,
+    "failure_max_m": 21.92,
+    "failure_classes": {
+      "0,50–1,50 m": 7448,
+      "1,50–3,00 m": 887,
+      "3,00–5,00 m": 159,
+      ">= 5,00 m": 50,
+      "< 0,50 m": 0
+    },
+    "failure_m_per_ha": 179.45,
+    "total_row_length_m": 315800.79,
+    "failure_percentage": 2.75
+  },
+  "bounds": [
+    -49.57608294475578,
+    -20.393526393516005,
+    -49.57188964451536,
+    -20.381185623372843
+  ],
+  "created_at": "2026-09-03T11:28:36.114519+00:00",
+  "plugin_version": "0.4.3",
+  "field": "",
+  "publication_slug": "pavani-modelo-70057-20260903",
+  "area_ha": 48.4257,
+  "layer_files": {
+    "orthomosaic": "orthomosaic.pmtiles",
+    "boundary": "boundary.geojson",
+    "failures": "failures.geojson",
+    "lines": "lines.geojson"
+  },
+  "orthomosaic": {
+    "enabled": true,
+    "type": "pmtiles",
+    "mode": "single",
+    "files": [
+      "orthomosaic.pmtiles"
+    ]
+  }
+}
