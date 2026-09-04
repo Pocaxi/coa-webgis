@@ -1,6 +1,31 @@
 {
   "projects": [
     {
+      "id": "pavani-sitio-bela-vista-ii-7055-muda-20260904-v1",
+      "slug": "pavani-sitio-bela-vista-ii-7055-muda-20260904-v1",
+      "name": "SÍTIO BELA VISTA II",
+      "company": "PAVANI",
+      "farm": "SÍTIO BELA VISTA II",
+      "field": "7055 - MUDA",
+      "field_code": "7055 - MUDA",
+      "plot": "7055 - MUDA",
+      "crop": "CANA",
+      "season": "25/26",
+      "survey_type": "Falhas de plantio",
+      "survey_date": "2026-09-04",
+      "area_ha": 15.074,
+      "responsible": "",
+      "provider": "github_pages",
+      "version": "v1",
+      "project_url": "projects/pavani-sitio-bela-vista-ii-7055-muda-20260904-v1/",
+      "url": "projects/pavani-sitio-bela-vista-ii-7055-muda-20260904-v1/",
+      "created_at": "2026-09-04T17:45:05.251843+00:00",
+      "updated_at": "2026-09-04T17:45:07.164727+00:00",
+      "status": "published",
+      "visible": true,
+      "is_latest": true
+    },
+    {
       "id": "pavani-modelo-70057-20260903-v1",
       "slug": "pavani-modelo-70057-20260903-v1",
       "name": "MODELO",
@@ -13,7 +38,17 @@
       "survey_type": "Falhas de plantio",
       "survey_date": "2026-09-03",
       "area_ha": 48.4257,
-      "url": "projects/pavani-modelo-70057-20260903-v1/"
+      "url": "projects/pavani-modelo-70057-20260903-v1/",
+      "field_code": "70057",
+      "responsible": "",
+      "provider": "",
+      "version": "v1",
+      "project_url": "projects/pavani-modelo-70057-20260903-v1/",
+      "created_at": "",
+      "updated_at": "",
+      "status": "published",
+      "visible": true,
+      "is_latest": true
     },
     {
       "id": "pavani-sao-sebastiao-ii-70054-20260902-v2",
@@ -28,7 +63,17 @@
       "survey_type": "Falhas de plantio",
       "survey_date": "2026-09-02",
       "area_ha": 46.3629,
-      "url": "projects/pavani-sao-sebastiao-ii-70054-20260902-v2/"
+      "url": "projects/pavani-sao-sebastiao-ii-70054-20260902-v2/",
+      "field_code": "70054",
+      "responsible": "",
+      "provider": "",
+      "version": "v2",
+      "project_url": "projects/pavani-sao-sebastiao-ii-70054-20260902-v2/",
+      "created_at": "",
+      "updated_at": "",
+      "status": "published",
+      "visible": true,
+      "is_latest": true
     },
     {
       "id": "pavani-sao-sebastiao-ii-70054-20260902-v1",
@@ -43,7 +88,17 @@
       "survey_type": "Falhas de plantio",
       "survey_date": "2026-09-02",
       "area_ha": 46.3629,
-      "url": "projects/pavani-sao-sebastiao-ii-70054-20260902-v1/"
+      "url": "projects/pavani-sao-sebastiao-ii-70054-20260902-v1/",
+      "field_code": "70054",
+      "responsible": "",
+      "provider": "",
+      "version": "v1",
+      "project_url": "projects/pavani-sao-sebastiao-ii-70054-20260902-v1/",
+      "created_at": "",
+      "updated_at": "",
+      "status": "published",
+      "visible": true,
+      "is_latest": false
     },
     {
       "id": "pavani-s-sebastiao-ii-70054-20260902-v1",
@@ -58,7 +113,17 @@
       "survey_type": "Falhas de plantio",
       "survey_date": "2026-09-02",
       "area_ha": 46.3629,
-      "url": "projects/pavani-s-sebastiao-ii-70054-20260902-v1/"
+      "url": "projects/pavani-s-sebastiao-ii-70054-20260902-v1/",
+      "field_code": "70054",
+      "responsible": "",
+      "provider": "",
+      "version": "v1",
+      "project_url": "projects/pavani-s-sebastiao-ii-70054-20260902-v1/",
+      "created_at": "",
+      "updated_at": "",
+      "status": "published",
+      "visible": true,
+      "is_latest": true
     },
     {
       "id": "pavani-s-seastiao-ii-70054-20260902-v2",
@@ -73,7 +138,17 @@
       "survey_type": "Falhas de plantio",
       "survey_date": "2026-09-02",
       "area_ha": 46.3629,
-      "url": "projects/pavani-s-seastiao-ii-70054-20260902-v2/"
+      "url": "projects/pavani-s-seastiao-ii-70054-20260902-v2/",
+      "field_code": "70054",
+      "responsible": "",
+      "provider": "",
+      "version": "v2",
+      "project_url": "projects/pavani-s-seastiao-ii-70054-20260902-v2/",
+      "created_at": "",
+      "updated_at": "",
+      "status": "published",
+      "visible": true,
+      "is_latest": true
     },
     {
       "id": "pavani-s-seastiao-ii-70054-20260902-v1",
@@ -88,9 +163,22 @@
       "survey_type": "Falhas de plantio",
       "survey_date": "2026-09-02",
       "area_ha": 46.3629,
-      "url": "projects/pavani-s-seastiao-ii-70054-20260902-v1/"
+      "url": "projects/pavani-s-seastiao-ii-70054-20260902-v1/",
+      "field_code": "70054",
+      "responsible": "",
+      "provider": "",
+      "version": "v1",
+      "project_url": "projects/pavani-s-seastiao-ii-70054-20260902-v1/",
+      "created_at": "",
+      "updated_at": "",
+      "status": "published",
+      "visible": true,
+      "is_latest": false
     }
   ],
   "title": "COA WebGIS",
-  "publication_mode": "github_pages"
+  "publication_mode": "github_pages",
+  "catalog_version": 1,
+  "subtitle": "Centro de Operações Agrícolas",
+  "generated_at": "2026-09-04T17:46:06.547486+00:00"
 }

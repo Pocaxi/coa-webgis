@@ -1,0 +1,151 @@
+{
+  "company": "PAVANI",
+  "farm": "SÍTIO BELA VISTA II",
+  "field_code": "7055 - MUDA",
+  "crop": "CANA",
+  "season": "25/26",
+  "survey_date": "2026-09-04",
+  "survey_type": "Falhas de plantio",
+  "technician": "",
+  "notes": "",
+  "raster_profile": "balanced",
+  "external_mask": false,
+  "basemap": "none",
+  "max_publication_mb": 500,
+  "publication_mode": "github_pages",
+  "publication_id": "pavani-sitio-bela-vista-ii-7055-muda-20260904-v1",
+  "catalog_version": 1,
+  "updated_at": "2026-09-04T17:45:07.164727+00:00",
+  "project_url": "https://Pocaxi.github.io/coa-webgis/projects/pavani-sitio-bela-vista-ii-7055-muda-20260904-v1/",
+  "publication_provider": "github_pages",
+  "repository": "coa-webgis",
+  "branch": "main",
+  "layers": [
+    {
+      "role": "orthomosaic",
+      "layer_id": "70055_1a19a16e_1f63_4084_9fd5_a25144c8285d",
+      "name": "70055",
+      "enabled": true,
+      "visible": true,
+      "queryable": false,
+      "output": "orthomosaic.pmtiles",
+      "format": "raster_pmtiles",
+      "geometry_type": "Raster",
+      "popup_fields": [],
+      "style": {},
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": [
+        "orthomosaic.pmtiles"
+      ]
+    },
+    {
+      "role": "boundary",
+      "layer_id": "pasted_features_afbe16af_4f91_4f77_884e_38b7d952487e",
+      "name": "LIMITE",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "boundary.geojson",
+      "format": "geojson",
+      "geometry_type": "Polygon",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#000000",
+        "line-width": 3,
+        "fill-opacity": 0,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "failures",
+      "layer_id": "70055_falhas_11f63bcc_cb0e_4eb8_81a1_83f1d6da9dc3",
+      "name": "70055_falhas",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "failures.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#6dd5ed",
+        "line-width": 2,
+        "fill-color": "#6dd5ed",
+        "fill-opacity": 0.25
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "lines",
+      "layer_id": "70055_linhas_ecddaf73_32e1_44d6_951c_6acb173827e5",
+      "name": "LINHAS",
+      "enabled": true,
+      "visible": false,
+      "queryable": true,
+      "output": "lines.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#ffff00",
+        "line-width": 2,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    }
+  ],
+  "statistics": {
+    "area_ha": 15.074,
+    "failure_count": 1938,
+    "failure_length_m": 2180.62,
+    "failure_mean_m": 1.13,
+    "failure_max_m": 13.52,
+    "failure_classes": {
+      "0,50–1,50 m": 1608,
+      "1,50–3,00 m": 249,
+      "3,00–5,00 m": 61,
+      ">= 5,00 m": 20,
+      "< 0,50 m": 0
+    },
+    "failure_m_per_ha": 144.66,
+    "total_row_length_m": 99139.11,
+    "failure_percentage": 2.2
+  },
+  "bounds": [
+    -49.57487448852589,
+    -20.405203253859213,
+    -49.570300537869386,
+    -20.40093789398479
+  ],
+  "created_at": "2026-09-04T17:45:05.251843+00:00",
+  "plugin_version": "0.5.0",
+  "field": "",
+  "publication_slug": "pavani-sitio-bela-vista-ii-7055-muda-20260904",
+  "area_ha": 15.074,
+  "layer_files": {
+    "orthomosaic": "orthomosaic.pmtiles",
+    "boundary": "boundary.geojson",
+    "failures": "failures.geojson",
+    "lines": "lines.geojson"
+  },
+  "orthomosaic": {
+    "enabled": true,
+    "type": "pmtiles",
+    "mode": "single",
+    "files": [
+      "orthomosaic.pmtiles"
+    ]
+  }
+}

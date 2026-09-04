@@ -1,1 +1,20 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>COA WebGIS</title><link rel="stylesheet" href="css/app.css"></head><body class="catalog-page"><header class="catalog-header"><h1>COA WebGIS</h1><p>Catálogo de levantamentos agrícolas</p><div class="public-warning">Os mapas deste catálogo são públicos e acessíveis por URL.</div></header><main class="catalog-main"><table class="catalog-table"><thead><tr><th>Empresa</th><th>Fazenda</th><th>Talhão</th><th>Tipo</th><th>Data</th><th></th></tr></thead><tbody id="catalogRows"></tbody></table></main><script src="js/catalog.js"></script></body></html>
+<!doctype html>
+<html lang="pt-BR"><head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#102a2b"><title>COA WebGIS | Portal de Mapas</title>
+  <link rel="stylesheet" href="css/app.css"><link rel="stylesheet" href="css/catalog.css">
+</head><body class="catalog-page">
+  <header class="portal-header"><div><span class="portal-kicker">CENTRO DE OPERAÇÕES AGRÍCOLAS</span><h1>COA WebGIS</h1><p>Portal histórico de mapas e levantamentos</p></div><button id="presentationButton" class="presentation-button">MODO APRESENTAÇÃO</button></header>
+  <main class="portal-main">
+    <section class="summary-grid" aria-label="Resumo">
+      <article><span>Publicações</span><strong id="summaryPublications">0</strong></article><article><span>Fazendas</span><strong id="summaryFarms">0</strong></article><article><span>Talhões</span><strong id="summaryFields">0</strong></article><article><span>Área publicada</span><strong id="summaryArea">0 ha</strong></article><article><span>Última publicação</span><strong id="summaryLatest">—</strong></article>
+    </section>
+    <section class="catalog-panel">
+      <div class="catalog-panel-heading"><div><h2>Publicações</h2><p id="resultCount">Carregando catálogo...</p></div><label class="search-field"><span>Busca livre</span><input id="searchInput" type="search" placeholder="Fazenda, talhão, cultura, responsável ou slug"></label></div>
+      <div id="filters" class="filter-grid">
+        <label>Empresa<select id="companyFilter"><option value="">Todas</option></select></label><label>Fazenda<select id="farmFilter"><option value="">Todas</option></select></label><label>Talhão<select id="fieldFilter"><option value="">Todos</option></select></label><label>Cultura<select id="cropFilter"><option value="">Todas</option></select></label><label>Safra<select id="seasonFilter"><option value="">Todas</option></select></label><label>Tipo<select id="typeFilter"><option value="">Todos</option></select></label><label>Ano<select id="yearFilter"><option value="">Todos</option></select></label><label>Data<input id="dateFilter" type="date"></label><label>Ordenar<select id="sortSelect"><option value="recent">Data mais recente</option><option value="oldest">Data mais antiga</option><option value="farm">Fazenda</option><option value="field">Talhão</option><option value="crop">Cultura</option></select></label>
+      </div>
+      <div id="catalogError" class="catalog-error" hidden></div><div class="catalog-table-wrap"><table class="catalog-table"><thead><tr><th>Fazenda</th><th>Talhão</th><th>Cultura</th><th>Tipo</th><th>Data</th><th>Versão</th><th>Área</th><th></th></tr></thead><tbody id="catalogRows"></tbody></table></div><div id="catalogCards" class="catalog-cards"></div><div id="catalogEmpty" class="catalog-empty" hidden>Nenhuma publicação encontrada.</div>
+    </section>
+  </main><script src="js/catalog.js"></script>
+</body></html>
