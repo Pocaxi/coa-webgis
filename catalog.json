@@ -1,6 +1,31 @@
 {
   "projects": [
     {
+      "id": "pavani-sit-esperanca-85604-20260909-v1",
+      "slug": "pavani-sit-esperanca-85604-20260909-v1",
+      "name": "SIT. ESPERANCA",
+      "company": "PAVANI",
+      "farm": "SIT. ESPERANCA",
+      "field": "85604",
+      "field_code": "85604",
+      "plot": "85604",
+      "crop": "CANA-DE-AÇUCAR",
+      "season": "25/26",
+      "survey_type": "Falhas de plantio",
+      "survey_date": "2026-09-09",
+      "area_ha": 42.0404,
+      "responsible": "",
+      "provider": "github_pages",
+      "version": "v1",
+      "project_url": "projects/pavani-sit-esperanca-85604-20260909-v1/",
+      "url": "projects/pavani-sit-esperanca-85604-20260909-v1/",
+      "created_at": "2026-09-09T19:38:05.937303+00:00",
+      "updated_at": "2026-09-09T19:38:07.609259+00:00",
+      "status": "published",
+      "visible": true,
+      "is_latest": true
+    },
+    {
       "id": "pavani-sitio-bela-vista-ii-7055-muda-20260904-v1",
       "slug": "pavani-sitio-bela-vista-ii-7055-muda-20260904-v1",
       "name": "SÍTIO BELA VISTA II",
@@ -180,5 +205,5 @@
   "publication_mode": "github_pages",
   "catalog_version": 1,
   "subtitle": "Centro de Operações Agrícolas",
-  "generated_at": "2026-09-04T17:46:06.547486+00:00"
+  "generated_at": "2026-09-09T19:40:29.502093+00:00"
 }

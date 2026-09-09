@@ -1,0 +1,151 @@
+{
+  "company": "PAVANI",
+  "farm": "SIT. ESPERANCA",
+  "field_code": "85604",
+  "crop": "CANA-DE-AÇUCAR",
+  "season": "25/26",
+  "survey_date": "2026-09-09",
+  "survey_type": "Falhas de plantio",
+  "technician": "",
+  "notes": "",
+  "raster_profile": "balanced",
+  "external_mask": false,
+  "basemap": "none",
+  "max_publication_mb": 500,
+  "publication_mode": "github_pages",
+  "publication_id": "pavani-sit-esperanca-85604-20260909-v1",
+  "catalog_version": 1,
+  "updated_at": "2026-09-09T19:38:07.609259+00:00",
+  "project_url": "https://Pocaxi.github.io/coa-webgis/projects/pavani-sit-esperanca-85604-20260909-v1/",
+  "publication_provider": "github_pages",
+  "repository": "coa-webgis",
+  "branch": "main",
+  "layers": [
+    {
+      "role": "orthomosaic",
+      "layer_id": "85604_39c36321_a30f_464e_99cc_3ef47bdd677e",
+      "name": "85604",
+      "enabled": true,
+      "visible": true,
+      "queryable": false,
+      "output": "orthomosaic.pmtiles",
+      "format": "raster_pmtiles",
+      "geometry_type": "Raster",
+      "popup_fields": [],
+      "style": {},
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": [
+        "orthomosaic.pmtiles"
+      ]
+    },
+    {
+      "role": "boundary",
+      "layer_id": "pasted_features_d1302578_6183_449c_b7cd_38e53db7c837",
+      "name": "85604",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "boundary.geojson",
+      "format": "geojson",
+      "geometry_type": "Polygon",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#000000",
+        "line-width": 3,
+        "fill-opacity": 0,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "failures",
+      "layer_id": "85604_falhas_406ffaf3_47b2_44a1_b06e_0a80567a593d",
+      "name": "85604_falhas",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "failures.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#6dd5ed",
+        "line-width": 2,
+        "fill-color": "#6dd5ed",
+        "fill-opacity": 0.25
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "lines",
+      "layer_id": "85604_linhas_903241c7_5c2a_49a9_8417_69f59935ed12",
+      "name": "85604_linhas",
+      "enabled": true,
+      "visible": false,
+      "queryable": true,
+      "output": "lines.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#ffff00",
+        "line-width": 2,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    }
+  ],
+  "statistics": {
+    "area_ha": 42.0404,
+    "failure_count": 3013,
+    "failure_length_m": 4972.12,
+    "failure_mean_m": 1.65,
+    "failure_max_m": 49.21,
+    "failure_classes": {
+      "0,50–1,50 m": 2171,
+      "1,50–3,00 m": 546,
+      "3,00–5,00 m": 151,
+      ">= 5,00 m": 145,
+      "< 0,50 m": 0
+    },
+    "failure_m_per_ha": 118.27,
+    "total_row_length_m": 277773.88,
+    "failure_percentage": 1.79
+  },
+  "bounds": [
+    -49.56892047387535,
+    -20.43875483266556,
+    -49.563559736349184,
+    -20.427703465438885
+  ],
+  "created_at": "2026-09-09T19:38:05.937303+00:00",
+  "plugin_version": "0.5.0",
+  "field": "",
+  "publication_slug": "pavani-sit-esperanca-85604-20260909",
+  "area_ha": 42.0404,
+  "layer_files": {
+    "orthomosaic": "orthomosaic.pmtiles",
+    "boundary": "boundary.geojson",
+    "failures": "failures.geojson",
+    "lines": "lines.geojson"
+  },
+  "orthomosaic": {
+    "enabled": true,
+    "type": "pmtiles",
+    "mode": "single",
+    "files": [
+      "orthomosaic.pmtiles"
+    ]
+  }
+}
