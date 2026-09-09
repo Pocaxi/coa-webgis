@@ -124,36 +124,11 @@
       "status": "published",
       "visible": true,
       "is_latest": false
-    },
-    {
-      "id": "pavani-s-sebastiao-ii-70054-20260902-v1",
-      "slug": "pavani-s-sebastiao-ii-70054-20260902-v1",
-      "name": "S. SEBASTIÃO II",
-      "company": "PAVANI",
-      "farm": "S. SEBASTIÃO II",
-      "field": "70054",
-      "plot": "70054",
-      "crop": "CANA-DE-AÇUCAR",
-      "season": "25/26",
-      "survey_type": "Falhas de plantio",
-      "survey_date": "2026-09-02",
-      "area_ha": 46.3629,
-      "url": "projects/pavani-s-sebastiao-ii-70054-20260902-v1/",
-      "field_code": "70054",
-      "responsible": "",
-      "provider": "",
-      "version": "v1",
-      "project_url": "projects/pavani-s-sebastiao-ii-70054-20260902-v1/",
-      "created_at": "",
-      "updated_at": "",
-      "status": "published",
-      "visible": true,
-      "is_latest": true
     }
   ],
   "title": "COA WebGIS",
   "publication_mode": "github_pages",
   "catalog_version": 1,
   "subtitle": "Centro de Operações Agrícolas",
-  "generated_at": "2026-09-09T19:46:56.478991+00:00"
+  "generated_at": "2026-09-09T19:47:16.336329+00:00"
 }
