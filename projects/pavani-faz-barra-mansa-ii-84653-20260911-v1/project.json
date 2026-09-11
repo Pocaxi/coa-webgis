@@ -1,0 +1,115 @@
+{
+  "company": "PAVANI",
+  "farm": "FAZ. BARRA MANSA II",
+  "field_code": "84653",
+  "crop": "CANA-DE-AÇUCAR",
+  "season": "26/27",
+  "survey_date": "2026-09-11",
+  "survey_type": "Outro",
+  "technician": "",
+  "notes": "MAPEAMENTO DE PLANTAS INVASORAS",
+  "raster_profile": "balanced",
+  "external_mask": false,
+  "basemap": "none",
+  "max_publication_mb": 500,
+  "publication_mode": "github_pages",
+  "publication_id": "pavani-faz-barra-mansa-ii-84653-20260911-v1",
+  "catalog_version": 1,
+  "updated_at": "2026-09-11T18:59:42.149562+00:00",
+  "project_url": "https://Pocaxi.github.io/coa-webgis/projects/pavani-faz-barra-mansa-ii-84653-20260911-v1/",
+  "publication_provider": "github_pages",
+  "repository": "coa-webgis",
+  "branch": "main",
+  "layers": [
+    {
+      "role": "orthomosaic",
+      "layer_id": "84653_002_4e62828c_0321_4efa_bb40_30134abbe853",
+      "name": "84653-002",
+      "enabled": true,
+      "visible": true,
+      "queryable": false,
+      "output": "orthomosaic.pmtiles",
+      "format": "raster_pmtiles",
+      "geometry_type": "Raster",
+      "popup_fields": [],
+      "style": {},
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": [
+        "orthomosaic.pmtiles"
+      ]
+    },
+    {
+      "role": "boundary",
+      "layer_id": "pasted_features_6397ca48_69c7_4bda_aae5_f7f8693a6a53",
+      "name": "84653",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "boundary.geojson",
+      "format": "geojson",
+      "geometry_type": "Polygon",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#000000",
+        "line-width": 3,
+        "fill-opacity": 0,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "extra",
+      "layer_id": "Partes__nicas_524e7618_6fd2_4920_b45a_572121167cf5",
+      "name": "INVASORAS",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "invasoras.geojson",
+      "format": "geojson",
+      "geometry_type": "Polygon",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#6dd5ed",
+        "line-width": 2,
+        "fill-color": "#6dd5ed",
+        "fill-opacity": 0.25
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    }
+  ],
+  "statistics": {
+    "area_ha": 54.6437
+  },
+  "bounds": [
+    -49.57549554264427,
+    -20.365476442590634,
+    -49.56759238002878,
+    -20.35568498558051
+  ],
+  "created_at": "2026-09-11T18:59:39.394175+00:00",
+  "plugin_version": "0.5.0",
+  "field": "",
+  "publication_slug": "pavani-faz-barra-mansa-ii-84653-20260911",
+  "area_ha": 54.6437,
+  "layer_files": {
+    "orthomosaic": "orthomosaic.pmtiles",
+    "boundary": "boundary.geojson",
+    "extra": "invasoras.geojson"
+  },
+  "orthomosaic": {
+    "enabled": true,
+    "type": "pmtiles",
+    "mode": "single",
+    "files": [
+      "orthomosaic.pmtiles"
+    ]
+  }
+}

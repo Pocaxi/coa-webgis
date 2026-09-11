@@ -1,6 +1,31 @@
 {
   "projects": [
     {
+      "id": "pavani-faz-barra-mansa-ii-84653-20260911-v1",
+      "slug": "pavani-faz-barra-mansa-ii-84653-20260911-v1",
+      "name": "FAZ. BARRA MANSA II",
+      "company": "PAVANI",
+      "farm": "FAZ. BARRA MANSA II",
+      "field": "84653",
+      "field_code": "84653",
+      "plot": "84653",
+      "crop": "CANA-DE-AÇUCAR",
+      "season": "26/27",
+      "survey_type": "Outro",
+      "survey_date": "2026-09-11",
+      "area_ha": 54.6437,
+      "responsible": "",
+      "provider": "github_pages",
+      "version": "v1",
+      "project_url": "projects/pavani-faz-barra-mansa-ii-84653-20260911-v1/",
+      "url": "projects/pavani-faz-barra-mansa-ii-84653-20260911-v1/",
+      "created_at": "2026-09-11T18:59:39.394175+00:00",
+      "updated_at": "2026-09-11T18:59:42.149562+00:00",
+      "status": "published",
+      "visible": true,
+      "is_latest": true
+    },
+    {
       "id": "pavani-sit-bom-jardim-85131-20260911-v1",
       "slug": "pavani-sit-bom-jardim-85131-20260911-v1",
       "name": "SIT. BOM JARDIM",
@@ -155,5 +180,5 @@
   "publication_mode": "github_pages",
   "catalog_version": 1,
   "subtitle": "Centro de Operações Agrícolas",
-  "generated_at": "2026-09-11T13:43:03.573222+00:00"
+  "generated_at": "2026-09-11T18:59:43.519536+00:00"
 }
