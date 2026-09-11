@@ -1,0 +1,151 @@
+{
+  "company": "PAVANI",
+  "farm": "SIT. BOM JARDIM",
+  "field_code": "85131",
+  "crop": "CANA-DE-AÇUCAR",
+  "season": "2025/2026",
+  "survey_date": "2026-09-11",
+  "survey_type": "Falhas de plantio",
+  "technician": "",
+  "notes": "",
+  "raster_profile": "balanced",
+  "external_mask": false,
+  "basemap": "none",
+  "max_publication_mb": 500,
+  "publication_mode": "github_pages",
+  "publication_id": "pavani-sit-bom-jardim-85131-20260911-v1",
+  "catalog_version": 1,
+  "updated_at": "2026-09-11T13:31:47.305627+00:00",
+  "project_url": "https://Pocaxi.github.io/coa-webgis/projects/pavani-sit-bom-jardim-85131-20260911-v1/",
+  "publication_provider": "github_pages",
+  "repository": "coa-webgis",
+  "branch": "main",
+  "layers": [
+    {
+      "role": "orthomosaic",
+      "layer_id": "85131_04ae0743_364b_487c_8a98_60b24367ec47",
+      "name": "85131",
+      "enabled": true,
+      "visible": true,
+      "queryable": false,
+      "output": "orthomosaic.pmtiles",
+      "format": "raster_pmtiles",
+      "geometry_type": "Raster",
+      "popup_fields": [],
+      "style": {},
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": [
+        "orthomosaic.pmtiles"
+      ]
+    },
+    {
+      "role": "boundary",
+      "layer_id": "LIMITE_bf03ff55_c68c_43e1_bbc1_34da6c760472",
+      "name": "LIMITE",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "boundary.geojson",
+      "format": "geojson",
+      "geometry_type": "Polygon",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#000000",
+        "line-width": 3,
+        "fill-opacity": 0,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "failures",
+      "layer_id": "85131_falhas_ef8bcbe2_dee2_425a_a2f7_b31827bc9bda",
+      "name": "85131_falhas",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "failures.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#6dd5ed",
+        "line-width": 2,
+        "fill-color": "#6dd5ed",
+        "fill-opacity": 0.25
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "lines",
+      "layer_id": "85131_falhas_ef8bcbe2_dee2_425a_a2f7_b31827bc9bda",
+      "name": "85131_falhas",
+      "enabled": true,
+      "visible": false,
+      "queryable": true,
+      "output": "lines.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#00e5d4",
+        "line-width": 2,
+        "line-opacity": 0.9
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "source_layer": "",
+      "files": []
+    }
+  ],
+  "statistics": {
+    "area_ha": 50.1519,
+    "failure_count": 3546,
+    "failure_length_m": 3549.03,
+    "failure_mean_m": 1.0,
+    "failure_max_m": 15.04,
+    "failure_classes": {
+      "0,50–1,50 m": 3086,
+      "1,50–3,00 m": 399,
+      "3,00–5,00 m": 44,
+      ">= 5,00 m": 17,
+      "< 0,50 m": 0
+    },
+    "failure_m_per_ha": 70.77,
+    "total_row_length_m": 3549.03,
+    "failure_percentage": 100.0
+  },
+  "bounds": [
+    -49.5963216105299,
+    -20.446540786328057,
+    -49.58330484402562,
+    -20.43545394190975
+  ],
+  "created_at": "2026-09-11T13:31:45.568178+00:00",
+  "plugin_version": "0.5.0",
+  "field": "",
+  "publication_slug": "pavani-sit-bom-jardim-85131-20260911",
+  "area_ha": 50.1519,
+  "layer_files": {
+    "orthomosaic": "orthomosaic.pmtiles",
+    "boundary": "boundary.geojson",
+    "failures": "failures.geojson",
+    "lines": "lines.geojson"
+  },
+  "orthomosaic": {
+    "enabled": true,
+    "type": "pmtiles",
+    "mode": "single",
+    "files": [
+      "orthomosaic.pmtiles"
+    ]
+  }
+}
