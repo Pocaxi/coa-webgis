@@ -1,6 +1,33 @@
 {
   "projects": [
     {
+      "id": "agro-intelligence-esperaca-7358-20261017-v1",
+      "slug": "agro-intelligence-esperaca-7358-20261017-v1",
+      "name": "ESPERAÇA",
+      "company": "AGRO INTELLIGENCE",
+      "farm": "ESPERAÇA",
+      "field": "7358",
+      "field_code": "7358",
+      "plot": "7358",
+      "crop": "CANA-DE-AÇUCAR",
+      "season": "2026",
+      "survey_type": "Falhas de plantio",
+      "survey_date": "2026-10-17",
+      "area_ha": 13.4911,
+      "responsible": "MARCELO NERY",
+      "provider": "github_pages",
+      "version": "v1",
+      "project_url": "projects/agro-intelligence-esperaca-7358-20261017-v1/",
+      "url": "projects/agro-intelligence-esperaca-7358-20261017-v1/",
+      "created_at": "2026-10-18T00:31:16.907599+00:00",
+      "updated_at": "2026-10-18T00:31:18.765874+00:00",
+      "status": "published",
+      "visible": true,
+      "brand_id": "agro-intelligence",
+      "brand_name": "AGRO INTELLIGENCE",
+      "is_latest": true
+    },
+    {
       "id": "agro-intelligence-teste-teste-20261016-v1",
       "slug": "agro-intelligence-teste-teste-20261016-v1",
       "name": "TESTE",
@@ -207,6 +234,6 @@
   "publication_mode": "github_pages",
   "catalog_version": 1,
   "subtitle": "Mapas e levantamentos",
-  "generated_at": "2026-10-16T14:14:57.587681+00:00",
+  "generated_at": "2026-10-18T00:31:52.987334+00:00",
   "branding": {}
 }

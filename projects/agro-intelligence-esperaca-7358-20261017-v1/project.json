@@ -1,0 +1,164 @@
+{
+  "company": "AGRO INTELLIGENCE",
+  "farm": "ESPERAÇA",
+  "field_code": "7358",
+  "crop": "CANA-DE-AÇUCAR",
+  "season": "2026",
+  "survey_date": "2026-10-17",
+  "survey_type": "Falhas de plantio",
+  "technician": "MARCELO NERY",
+  "notes": "",
+  "raster_profile": "balanced",
+  "external_mask": false,
+  "basemap": "none",
+  "max_publication_mb": 500,
+  "publication_mode": "github_pages",
+  "publication_id": "agro-intelligence-esperaca-7358-20261017-v1",
+  "catalog_version": 1,
+  "updated_at": "2026-10-18T00:31:18.765874+00:00",
+  "project_url": "https://Pocaxi.github.io/coa-webgis/projects/agro-intelligence-esperaca-7358-20261017-v1/",
+  "publication_provider": "github_pages",
+  "repository": "coa-webgis",
+  "branch": "main",
+  "layers": [
+    {
+      "role": "orthomosaic",
+      "layer_id": "ORTO_ESPERANCA_dc67fc11_3f98_4c85_9b34_340eac8b5050",
+      "name": "ORTO_ESPERANCA",
+      "enabled": true,
+      "visible": true,
+      "queryable": false,
+      "output": "orthomosaic.pmtiles",
+      "format": "raster_pmtiles",
+      "geometry_type": "Raster",
+      "popup_fields": [],
+      "style": {},
+      "minzoom": 0,
+      "maxzoom": 22,
+      "popup_fields_explicit": false,
+      "source_layer": "",
+      "files": [
+        "orthomosaic.pmtiles"
+      ]
+    },
+    {
+      "role": "boundary",
+      "layer_id": "TALHOES_9bfc86a9_1a2c_4ab1_a645_cb1f03ebc318",
+      "name": "TALHOES",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "boundary.geojson",
+      "format": "geojson",
+      "geometry_type": "Polygon",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#000000",
+        "line-width": 3,
+        "fill-opacity": 0,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "popup_fields_explicit": false,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "failures",
+      "layer_id": "ESPERANCA_falhas_1ef0a67b_e3cc_4a1f_8f37_b047eb11d9f8",
+      "name": "ESPERANCA_falhas",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "failures.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#6dd5ed",
+        "line-width": 2,
+        "fill-color": "#6dd5ed",
+        "fill-opacity": 0.25
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "popup_fields_explicit": false,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "lines",
+      "layer_id": "ESPERANCA_linhas_e021135c_a421_4dee_b7f7_0427d5fbe076",
+      "name": "ESPERANCA_linhas",
+      "enabled": true,
+      "visible": false,
+      "queryable": true,
+      "output": "lines.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#ffe300",
+        "line-width": 2,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "popup_fields_explicit": false,
+      "source_layer": "",
+      "files": []
+    }
+  ],
+  "statistics": {
+    "area_ha": 13.4911,
+    "failure_count": 19671,
+    "failure_length_m": 42741.21,
+    "failure_mean_m": 2.17,
+    "failure_max_m": 48.8,
+    "failure_classes": {
+      "0,50–1,50 m": 10649,
+      "1,50–3,00 m": 5115,
+      "3,00–5,00 m": 2227,
+      ">= 5,00 m": 1680,
+      "< 0,50 m": 0
+    },
+    "failure_m_per_ha": 3168.1,
+    "total_row_length_m": 90780.22,
+    "failure_percentage": 47.08
+  },
+  "bounds": [
+    -50.01342438496612,
+    -20.87520136147081,
+    -50.00846775301015,
+    -20.8718322505602
+  ],
+  "created_at": "2026-10-18T00:31:16.907599+00:00",
+  "plugin_version": "0.7.1",
+  "brand_id": "agro-intelligence",
+  "branding": {
+    "id": "agro-intelligence",
+    "name": "AGRO INTELLIGENCE",
+    "primary": "#23702F",
+    "accent": "#ADAEB0",
+    "credit": "MARCELO NERY",
+    "logo": "brand-logo.png"
+  },
+  "field": "01",
+  "publication_slug": "agro-intelligence-esperaca-7358-20261017",
+  "area_ha": 13.4911,
+  "layer_files": {
+    "orthomosaic": "orthomosaic.pmtiles",
+    "boundary": "boundary.geojson",
+    "failures": "failures.geojson",
+    "lines": "lines.geojson"
+  },
+  "orthomosaic": {
+    "enabled": true,
+    "type": "pmtiles",
+    "mode": "single",
+    "files": [
+      "orthomosaic.pmtiles"
+    ]
+  }
+}
