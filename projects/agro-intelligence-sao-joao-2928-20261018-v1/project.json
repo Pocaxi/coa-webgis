@@ -1,0 +1,164 @@
+{
+  "company": "AGRO INTELLIGENCE",
+  "farm": "SAO JOAO",
+  "field_code": "2928",
+  "crop": "CANA-DE-AÇUCAR",
+  "season": "2026",
+  "survey_date": "2026-10-18",
+  "survey_type": "Falhas de plantio",
+  "technician": "",
+  "notes": "",
+  "raster_profile": "balanced",
+  "external_mask": false,
+  "basemap": "none",
+  "max_publication_mb": 500,
+  "publication_mode": "github_pages",
+  "publication_id": "agro-intelligence-sao-joao-2928-20261018-v1",
+  "catalog_version": 1,
+  "updated_at": "2026-10-18T17:23:33.654964+00:00",
+  "project_url": "https://Pocaxi.github.io/coa-webgis/projects/agro-intelligence-sao-joao-2928-20261018-v1/",
+  "publication_provider": "github_pages",
+  "repository": "coa-webgis",
+  "branch": "main",
+  "layers": [
+    {
+      "role": "orthomosaic",
+      "layer_id": "ORTO_SAO_JOAO_9e879102_cff0_49bd_b01a_ff2476109520",
+      "name": "ORTO_SAO_JOAO",
+      "enabled": true,
+      "visible": true,
+      "queryable": false,
+      "output": "orthomosaic.pmtiles",
+      "format": "raster_pmtiles",
+      "geometry_type": "Raster",
+      "popup_fields": [],
+      "style": {},
+      "minzoom": 0,
+      "maxzoom": 22,
+      "popup_fields_explicit": false,
+      "source_layer": "",
+      "files": [
+        "orthomosaic.pmtiles"
+      ]
+    },
+    {
+      "role": "boundary",
+      "layer_id": "SAO_JOAO_140e2069_ac64_4f20_8c72_84d4ace159b8",
+      "name": "SAO_JOAO",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "boundary.geojson",
+      "format": "geojson",
+      "geometry_type": "Polygon",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#000000",
+        "line-width": 3,
+        "fill-opacity": 0,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "popup_fields_explicit": false,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "failures",
+      "layer_id": "SAO_JOAO_falhas_9f53bc36_3adf_4d36_a349_35072b697e2a",
+      "name": "SAO_JOAO_falhas",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "failures.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#6dd5ed",
+        "line-width": 2,
+        "fill-color": "#6dd5ed",
+        "fill-opacity": 0.25
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "popup_fields_explicit": false,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "lines",
+      "layer_id": "linhas_centrais_96be42e2_fb54_40e0_b873_7f8da6f5f92e",
+      "name": "linhas_centrais",
+      "enabled": true,
+      "visible": false,
+      "queryable": true,
+      "output": "lines.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#ffe300",
+        "line-width": 2,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "popup_fields_explicit": false,
+      "source_layer": "",
+      "files": []
+    }
+  ],
+  "statistics": {
+    "area_ha": 47.3057,
+    "failure_count": 27926,
+    "failure_length_m": 27824.3,
+    "failure_mean_m": 1.0,
+    "failure_max_m": 13.12,
+    "failure_classes": {
+      "0,50–1,50 m": 24471,
+      "1,50–3,00 m": 2899,
+      "3,00–5,00 m": 424,
+      ">= 5,00 m": 132,
+      "< 0,50 m": 0
+    },
+    "failure_m_per_ha": 588.18,
+    "total_row_length_m": 315270.91,
+    "failure_percentage": 8.83
+  },
+  "bounds": [
+    -50.10333675301661,
+    -20.903427844446302,
+    -50.08543679256557,
+    -20.894572071817628
+  ],
+  "created_at": "2026-10-18T17:23:31.006548+00:00",
+  "plugin_version": "0.7.1",
+  "brand_id": "agro-intelligence",
+  "branding": {
+    "id": "agro-intelligence",
+    "name": "AGRO INTELLIGENCE",
+    "primary": "#23702F",
+    "accent": "#ADAEB0",
+    "credit": "MARCELO NERY",
+    "logo": "brand-logo.png"
+  },
+  "field": "",
+  "publication_slug": "agro-intelligence-sao-joao-2928-20261018",
+  "area_ha": 47.3057,
+  "layer_files": {
+    "orthomosaic": "orthomosaic.pmtiles",
+    "boundary": "boundary.geojson",
+    "failures": "failures.geojson",
+    "lines": "lines.geojson"
+  },
+  "orthomosaic": {
+    "enabled": true,
+    "type": "pmtiles",
+    "mode": "single",
+    "files": [
+      "orthomosaic.pmtiles"
+    ]
+  }
+}
