@@ -1,6 +1,33 @@
 {
   "projects": [
     {
+      "id": "agro-intelligence-nossa-senhora-aparecida-1127-20261018-v1",
+      "slug": "agro-intelligence-nossa-senhora-aparecida-1127-20261018-v1",
+      "name": "NOSSA SENHORA APARECIDA",
+      "company": "AGRO INTELLIGENCE",
+      "farm": "NOSSA SENHORA APARECIDA",
+      "field": "1127",
+      "field_code": "1127",
+      "plot": "1127",
+      "crop": "CANA-DE-AÇUCAR",
+      "season": "2026",
+      "survey_type": "Falhas de plantio",
+      "survey_date": "2026-10-18",
+      "area_ha": 36.8259,
+      "responsible": "",
+      "provider": "github_pages",
+      "version": "v1",
+      "project_url": "projects/agro-intelligence-nossa-senhora-aparecida-1127-20261018-v1/",
+      "url": "projects/agro-intelligence-nossa-senhora-aparecida-1127-20261018-v1/",
+      "created_at": "2026-10-18T14:41:25.353075+00:00",
+      "updated_at": "2026-10-18T14:41:27.639004+00:00",
+      "status": "published",
+      "visible": true,
+      "brand_id": "agro-intelligence",
+      "brand_name": "AGRO INTELLIGENCE",
+      "is_latest": true
+    },
+    {
       "id": "agro-intelligence-esperaca-7358-20261017-v1",
       "slug": "agro-intelligence-esperaca-7358-20261017-v1",
       "name": "ESPERAÇA",
@@ -207,6 +234,6 @@
   "publication_mode": "github_pages",
   "catalog_version": 1,
   "subtitle": "Mapas e levantamentos",
-  "generated_at": "2026-10-18T00:34:35.033559+00:00",
+  "generated_at": "2026-10-18T14:43:23.584160+00:00",
   "branding": {}
 }

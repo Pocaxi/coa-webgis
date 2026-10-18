@@ -1,0 +1,164 @@
+{
+  "company": "AGRO INTELLIGENCE",
+  "farm": "NOSSA SENHORA APARECIDA",
+  "field_code": "1127",
+  "crop": "CANA-DE-AÇUCAR",
+  "season": "2026",
+  "survey_date": "2026-10-18",
+  "survey_type": "Falhas de plantio",
+  "technician": "",
+  "notes": "",
+  "raster_profile": "balanced",
+  "external_mask": false,
+  "basemap": "none",
+  "max_publication_mb": 500,
+  "publication_mode": "github_pages",
+  "publication_id": "agro-intelligence-nossa-senhora-aparecida-1127-20261018-v1",
+  "catalog_version": 1,
+  "updated_at": "2026-10-18T14:41:27.639004+00:00",
+  "project_url": "https://Pocaxi.github.io/coa-webgis/projects/agro-intelligence-nossa-senhora-aparecida-1127-20261018-v1/",
+  "publication_provider": "github_pages",
+  "repository": "coa-webgis",
+  "branch": "main",
+  "layers": [
+    {
+      "role": "orthomosaic",
+      "layer_id": "ORTO_NSA_08d08da0_2da7_4b52_a4b1_e192f182c4d7",
+      "name": "ORTO_NSA",
+      "enabled": true,
+      "visible": true,
+      "queryable": false,
+      "output": "orthomosaic.pmtiles",
+      "format": "raster_pmtiles",
+      "geometry_type": "Raster",
+      "popup_fields": [],
+      "style": {},
+      "minzoom": 0,
+      "maxzoom": 22,
+      "popup_fields_explicit": false,
+      "source_layer": "",
+      "files": [
+        "orthomosaic.pmtiles"
+      ]
+    },
+    {
+      "role": "boundary",
+      "layer_id": "LIMITE_903158f6_fe3b_446e_b06e_af3bfa93d2ee",
+      "name": "LIMITE",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "boundary.geojson",
+      "format": "geojson",
+      "geometry_type": "Polygon",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#000000",
+        "line-width": 3,
+        "fill-opacity": 0,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "popup_fields_explicit": false,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "failures",
+      "layer_id": "NSA_falhas_0933c439_ca65_401a_8a38_fb60fc43f52c",
+      "name": "NSA_falhas",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "failures.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#6dd5ed",
+        "line-width": 2,
+        "fill-color": "#6dd5ed",
+        "fill-opacity": 0.25
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "popup_fields_explicit": false,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "lines",
+      "layer_id": "NSA_linhas_04a2d8f2_040b_48c1_a50d_3c93cb4910aa",
+      "name": "NSA_linhas",
+      "enabled": true,
+      "visible": false,
+      "queryable": true,
+      "output": "lines.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#ffe300",
+        "line-width": 2,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "popup_fields_explicit": false,
+      "source_layer": "",
+      "files": []
+    }
+  ],
+  "statistics": {
+    "area_ha": 36.8259,
+    "failure_count": 30480,
+    "failure_length_m": 40828.47,
+    "failure_mean_m": 1.34,
+    "failure_max_m": 56.01,
+    "failure_classes": {
+      "0,50–1,50 m": 22816,
+      "1,50–3,00 m": 5603,
+      "3,00–5,00 m": 1490,
+      ">= 5,00 m": 571,
+      "< 0,50 m": 0
+    },
+    "failure_m_per_ha": 1108.69,
+    "total_row_length_m": 244687.13,
+    "failure_percentage": 16.69
+  },
+  "bounds": [
+    -50.003026110576066,
+    -20.881865354297435,
+    -49.99441989018815,
+    -20.87152567019694
+  ],
+  "created_at": "2026-10-18T14:41:25.353075+00:00",
+  "plugin_version": "0.7.1",
+  "brand_id": "agro-intelligence",
+  "branding": {
+    "id": "agro-intelligence",
+    "name": "AGRO INTELLIGENCE",
+    "primary": "#23702F",
+    "accent": "#ADAEB0",
+    "credit": "MARCELO NERY",
+    "logo": "brand-logo.png"
+  },
+  "field": "",
+  "publication_slug": "agro-intelligence-nossa-senhora-aparecida-1127-20261018",
+  "area_ha": 36.8259,
+  "layer_files": {
+    "orthomosaic": "orthomosaic.pmtiles",
+    "boundary": "boundary.geojson",
+    "failures": "failures.geojson",
+    "lines": "lines.geojson"
+  },
+  "orthomosaic": {
+    "enabled": true,
+    "type": "pmtiles",
+    "mode": "single",
+    "files": [
+      "orthomosaic.pmtiles"
+    ]
+  }
+}
