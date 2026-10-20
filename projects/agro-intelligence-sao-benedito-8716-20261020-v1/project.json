@@ -1,0 +1,164 @@
+{
+  "company": "AGRO INTELLIGENCE",
+  "farm": "SAO BENEDITO",
+  "field_code": "8716",
+  "crop": "CANA-DE-AÇUCAR",
+  "season": "2026",
+  "survey_date": "2026-10-20",
+  "survey_type": "Falhas de plantio",
+  "technician": "",
+  "notes": "",
+  "raster_profile": "balanced",
+  "external_mask": false,
+  "basemap": "none",
+  "max_publication_mb": 500,
+  "publication_mode": "github_pages",
+  "publication_id": "agro-intelligence-sao-benedito-8716-20261020-v1",
+  "catalog_version": 1,
+  "updated_at": "2026-10-20T13:52:53.614756+00:00",
+  "project_url": "https://Pocaxi.github.io/coa-webgis/projects/agro-intelligence-sao-benedito-8716-20261020-v1/",
+  "publication_provider": "github_pages",
+  "repository": "coa-webgis",
+  "branch": "main",
+  "layers": [
+    {
+      "role": "orthomosaic",
+      "layer_id": "SAO_BENEDITO_ORTO_5307312f_d07e_4a1e_80a8_2422be5d521f",
+      "name": "SAO_BENEDITO_ORTO",
+      "enabled": true,
+      "visible": true,
+      "queryable": false,
+      "output": "orthomosaic.pmtiles",
+      "format": "raster_pmtiles",
+      "geometry_type": "Raster",
+      "popup_fields": [],
+      "style": {},
+      "minzoom": 0,
+      "maxzoom": 22,
+      "popup_fields_explicit": false,
+      "source_layer": "",
+      "files": [
+        "orthomosaic.pmtiles"
+      ]
+    },
+    {
+      "role": "boundary",
+      "layer_id": "SAO_BENEDITO_56aa1039_28a6_45b9_b7d3_bc2099d730e1",
+      "name": "SAO_BENEDITO",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "boundary.geojson",
+      "format": "geojson",
+      "geometry_type": "Polygon",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#000000",
+        "line-width": 3,
+        "fill-opacity": 0,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "popup_fields_explicit": false,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "failures",
+      "layer_id": "SAO_BENEDITO_falhas_c2bb840a_f331_4e73_b482_130ca5df121a",
+      "name": "SAO_BENEDITO_falhas",
+      "enabled": true,
+      "visible": true,
+      "queryable": true,
+      "output": "failures.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#6dd5ed",
+        "line-width": 2,
+        "fill-color": "#6dd5ed",
+        "fill-opacity": 0.25
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "popup_fields_explicit": false,
+      "source_layer": "",
+      "files": []
+    },
+    {
+      "role": "lines",
+      "layer_id": "SAO_BENEDITO_linhas_1b31469f_bb37_4e79_b28e_4439e34c48cd",
+      "name": "SAO_BENEDITO_linhas",
+      "enabled": true,
+      "visible": false,
+      "queryable": true,
+      "output": "lines.geojson",
+      "format": "geojson",
+      "geometry_type": "LineString",
+      "popup_fields": [],
+      "style": {
+        "line-color": "#ffef00",
+        "line-width": 2,
+        "line-opacity": 1.0
+      },
+      "minzoom": 0,
+      "maxzoom": 22,
+      "popup_fields_explicit": false,
+      "source_layer": "",
+      "files": []
+    }
+  ],
+  "statistics": {
+    "area_ha": 19.5507,
+    "failure_count": 18652,
+    "failure_length_m": 20745.51,
+    "failure_mean_m": 1.11,
+    "failure_max_m": 17.31,
+    "failure_classes": {
+      "0,50–1,50 m": 15326,
+      "1,50–3,00 m": 2759,
+      "3,00–5,00 m": 466,
+      ">= 5,00 m": 101,
+      "< 0,50 m": 0
+    },
+    "failure_m_per_ha": 1061.11,
+    "total_row_length_m": 131133.55,
+    "failure_percentage": 15.82
+  },
+  "bounds": [
+    -50.12001903505602,
+    -20.83284036235707,
+    -50.11293037660284,
+    -20.828057200712117
+  ],
+  "created_at": "2026-10-20T13:52:51.249802+00:00",
+  "plugin_version": "0.7.1",
+  "brand_id": "agro-intelligence",
+  "branding": {
+    "id": "agro-intelligence",
+    "name": "AGRO INTELLIGENCE",
+    "primary": "#1D673D",
+    "accent": "#B7B7B7",
+    "credit": "Elaborado por Marcelo Nery",
+    "logo": "brand-logo.png"
+  },
+  "field": "",
+  "publication_slug": "agro-intelligence-sao-benedito-8716-20261020",
+  "area_ha": 19.5507,
+  "layer_files": {
+    "orthomosaic": "orthomosaic.pmtiles",
+    "boundary": "boundary.geojson",
+    "failures": "failures.geojson",
+    "lines": "lines.geojson"
+  },
+  "orthomosaic": {
+    "enabled": true,
+    "type": "pmtiles",
+    "mode": "single",
+    "files": [
+      "orthomosaic.pmtiles"
+    ]
+  }
+}

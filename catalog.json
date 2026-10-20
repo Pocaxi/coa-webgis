@@ -1,6 +1,33 @@
 {
   "projects": [
     {
+      "id": "agro-intelligence-sao-benedito-8716-20261020-v1",
+      "slug": "agro-intelligence-sao-benedito-8716-20261020-v1",
+      "name": "SAO BENEDITO",
+      "company": "AGRO INTELLIGENCE",
+      "farm": "SAO BENEDITO",
+      "field": "8716",
+      "field_code": "8716",
+      "plot": "8716",
+      "crop": "CANA-DE-AÇUCAR",
+      "season": "2026",
+      "survey_type": "Falhas de plantio",
+      "survey_date": "2026-10-20",
+      "area_ha": 19.5507,
+      "responsible": "",
+      "provider": "github_pages",
+      "version": "v1",
+      "project_url": "projects/agro-intelligence-sao-benedito-8716-20261020-v1/",
+      "url": "projects/agro-intelligence-sao-benedito-8716-20261020-v1/",
+      "created_at": "2026-10-20T13:52:51.249802+00:00",
+      "updated_at": "2026-10-20T13:52:53.614756+00:00",
+      "status": "published",
+      "visible": true,
+      "brand_id": "agro-intelligence",
+      "brand_name": "AGRO INTELLIGENCE",
+      "is_latest": true
+    },
+    {
       "id": "agro-intelligence-sao-joao-2928-20261018-v1",
       "slug": "agro-intelligence-sao-joao-2928-20261018-v1",
       "name": "SAO JOAO",
@@ -261,6 +288,6 @@
   "publication_mode": "github_pages",
   "catalog_version": 1,
   "subtitle": "Mapas e levantamentos",
-  "generated_at": "2026-10-18T17:26:53.770690+00:00",
+  "generated_at": "2026-10-20T13:53:33.524311+00:00",
   "branding": {}
 }
